@@ -9,7 +9,6 @@ def summon_captain_planet(array)
   array.collect do |word|
    array2.push("#{word}!")
  end 
- return array2
 end
 
 def long_planeteer_calls# code an argument here
