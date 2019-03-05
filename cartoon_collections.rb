@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
  array2=[]
-  array.each do |word|
+  array.collect do |word|
    array2.push("#{word}!")
  end 
  return array2
