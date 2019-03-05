@@ -18,6 +18,6 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.collect do |x|
-    |x| == cheese_types
+  food.include(cheese_types)
+end
 end
